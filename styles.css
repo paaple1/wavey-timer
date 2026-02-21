@@ -30,6 +30,11 @@ body.timer-ended {
   color: #12141a;
 }
 
+body.cursor-hidden,
+body.cursor-hidden * {
+  cursor: none !important;
+}
+
 .app {
   width: min(96vw, 980px);
   display: grid;

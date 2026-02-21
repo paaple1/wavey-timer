@@ -128,6 +128,7 @@ function render() {
 
 function showInputZone() {
   controlsEl.classList.remove("input-hidden");
+  document.body.classList.remove("cursor-hidden");
 }
 
 function hideInputZoneIfIdle() {
@@ -135,6 +136,7 @@ function hideInputZoneIfIdle() {
     return;
   }
   controlsEl.classList.add("input-hidden");
+  document.body.classList.add("cursor-hidden");
 }
 
 function refreshIdleTimer() {
